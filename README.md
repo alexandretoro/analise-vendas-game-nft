@@ -1,0 +1,1 @@
+# analise-vendas-game-nft
