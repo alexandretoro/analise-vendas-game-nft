@@ -97,4 +97,4 @@ A identificação de bairros foi implementada via boundaries geográficos em JSO
 ---
 
 *Autor: Alexandre Toro Batista — São Paulo, SP*
-*Iniciado em 2024*
+*Iniciado em 2026*
