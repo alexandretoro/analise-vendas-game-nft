@@ -36,6 +36,7 @@ A ferramenta busca dados de vendas recentes diretamente das APIs do jogo e da bl
 | Requests / aiohttp | Consulta às APIs do jogo e da blockchain |
 | openpyxl / pandas | Geração e formatação da planilha Excel |
 | web3 | Integração com a blockchain |
+| shapely | Identificação de bairros via boundaries geográficos |
 | python-dotenv | Gerenciamento seguro de credenciais |
 
 ---
@@ -44,9 +45,10 @@ A ferramenta busca dados de vendas recentes diretamente das APIs do jogo e da bl
 
 ```
 analise-vendas-game-nft/
-├── consultar_vendas.py       # Script principal
-├── neighborhoods_cache.json  # Cache de bairros obtidos via boundaries geográficos
-└── requirements.txt          # Dependências do projeto
+├── consultar_vendas.py           # Script principal
+├── neighborhoods_cache.json      # Cache de bairros obtidos via boundaries geográficos
+├── Vendas Pre Lançamento Singapura.xlsx  # Exemplo de planilha gerada
+└── requirements.txt              # Dependências do projeto
 ```
 
 ---
@@ -55,7 +57,7 @@ analise-vendas-game-nft/
 
 **Pré-requisitos:**
 - Python 3.x
-- Credenciais de autenticação do Upland configuradas em `.env`
+- Credenciais de autenticação do Upland
 - Compatível com Linux e Windows
 
 **Instalação:**
@@ -76,7 +78,9 @@ Ao executar, informe o número de vendas que deseja consultar e o tipo de moeda 
 
 ## 📈 Exemplo de Saída
 
-A planilha gerada contém:
+O repositório inclui a planilha **"Vendas Pre Lançamento Singapura.xlsx"** como exemplo real de saída gerada pela ferramenta.
+
+A planilha contém:
 
 - **Aba UPX** — listagem detalhada das vendas em UPX com ranking de bairros
 - **Aba USD** — listagem detalhada das vendas em USD com ranking de bairros
