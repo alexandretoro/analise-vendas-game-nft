@@ -1,0 +1,30 @@
+# Core
+aiohttp==3.9.1
+requests==2.31.0
+pandas==2.2.0
+openpyxl==3.1.2
+tabulate==0.9.0
+
+# Geolocalização e mapas
+shapely==2.0.2
+
+# Automação
+selenium==4.16.0
+pyautogui==0.9.54
+pillow==10.2.0
+pyperclip==1.8.2
+
+# Notificações e som
+pygame==2.5.2
+# playsound==1.2.2  # Comentado - pode dar problema no Linux
+
+# Web scraping
+beautifulsoup4==4.12.3
+
+# Utilidades
+python-dotenv==1.0.0
+schedule==1.2.0
+pytz==2024.1
+
+# Blockchain/Crypto
+web3==6.15.0
