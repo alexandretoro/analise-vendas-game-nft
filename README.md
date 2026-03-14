@@ -1,4 +1,4 @@
-# 📊 ultimas-vendas — Análise de Mercado Secundário do Upland
+# 📊 analise-vendas-game-nft — Análise de Mercado Secundário do Upland
 
 Ferramenta desenvolvida em Python para consulta, processamento e análise das últimas vendas realizadas no mercado secundário do [Upland](https://upland.me), plataforma de metaverso baseada em blockchain.
 
@@ -43,7 +43,7 @@ A ferramenta busca dados de vendas recentes diretamente das APIs do jogo e da bl
 ## 📁 Estrutura do Projeto
 
 ```
-ultimas-vendas/
+analise-vendas-game-nft/
 ├── consultar_vendas.py       # Script principal
 ├── neighborhoods_cache.json  # Cache de bairros obtidos via boundaries geográficos
 └── requirements.txt          # Dependências do projeto
